@@ -1,0 +1,41 @@
+@import '../../../app/variables.scss';
+
+.plussItem {
+    width: 403rem;
+    height: 158rem;
+    box-shadow: 0 5rem 17rem 0 rgba(0, 0, 0, 0.1);
+    background: #f8f8f8;
+    padding: 10rem;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25rem;
+}
+.num {
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 48rem;
+    color: $dark-grey;
+}
+.score {
+    width: 207rem;
+    height: 40rem;
+    padding-bottom: 20rem;
+    border-bottom: 2rem solid $main;
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 32rem;
+    text-align: right;
+    color: $secondary-2;
+    line-height: 100%;
+}
+.info {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 16rem;
+    letter-spacing: 0.08em;
+    color: $main-bg;
+    line-height: 100%;
+}

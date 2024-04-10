@@ -1,0 +1,52 @@
+@import "../../app/variables.scss";
+
+.pluss {
+    padding: 20rem 0 70rem 0;
+    background: $white;
+}
+.heading {
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 20rem;
+    color: $black;
+    margin-bottom: 30rem;
+}
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.info {
+    width: 424rem;
+}
+.text {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16rem;
+    color: $second-bg;
+    margin-bottom: 20rem;
+    line-height: 100%;
+    width: 383rem;
+    &::after {
+        content: '';
+        display: block;
+        width: 390rem;
+        height: 2rem;
+        background: $main;
+        margin-top: 20rem;
+    }
+}
+.subText {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 16rem;
+    color: #7a7a7a;
+    line-height: 100%;
+}
+.list {
+    width: 826rem;
+    display: grid;
+    grid-template-columns: repeat(2, 403rem);
+    column-gap: 20rem;
+    row-gap: 20rem;
+}

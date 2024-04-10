@@ -3,11 +3,13 @@
 
 .header {
     padding: 20rem 0;
-    background: $white;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw ;
+    backdrop-filter: blur(10rem);
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 9;
 }
 .container {
     display: flex;
