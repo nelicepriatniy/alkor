@@ -1,11 +1,14 @@
+/* eslint react/no-unescaped-entities */
+
 import s from './frontBlock.module.scss'
+
 
 function FrontBlock() {
     return (
         <section className={s.frontBlock}>
             <div className={s.container + ' container'}>
                 <div className={s.info}>
-                    <h1 className={s.heading}>Мы Al<span>'</span>Kor Agency</h1>
+                    <h1 className={s.heading}>Мы Al<span className={s.orangeText}>'</span>Kor Agency</h1>
                     <h2 className={s.text}>Поможем вашей компании выделиться на рынке с помощью качественного сайта.</h2>
                     <div className={s.buttons}>
                         <div className={s.form}>Обсудить проект</div>
