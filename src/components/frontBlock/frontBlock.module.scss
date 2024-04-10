@@ -1,0 +1,78 @@
+@import '../../app/variables.scss';
+
+.frontBlock {
+    width: 1600rem;
+    height: 900rem;
+    padding-top: 152rem;
+}
+.containe {
+    position: relative;
+}
+.info {
+}
+.heading {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 64rem;
+    color: $main-bg;
+    margin-bottom: 15rem;
+}
+.text {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16rem;
+    letter-spacing: 0.08em;
+    color: $main-bg;
+    margin-bottom: 50rem;
+}
+.buttons {
+    display: flex;
+    column-gap: 20rem;
+}
+.form {
+    border-radius: 5rem;
+    width: 152rem;
+    height: 36rem;
+    background: $main-bg;
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16rem;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16rem;
+    color: $white;
+    border-radius: 5rem;
+    width: 195rem;
+    height: 36rem;
+    background: #a1a1a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dev {
+    position: absolute;
+    top: 255rem;
+    right: 140rem;
+    width: 295rem;
+    height: 100rem;
+}
+.uiux {
+    position: absolute;
+    width: 1320rem;
+    height: 374rem;
+    top: 374rem;
+    left: 140rem;
+}
+.orangeDot {
+    position: absolute;
+    top: 334rem;
+    right: 140rem;
+    width: 20rem;
+    height: 20rem;
+}

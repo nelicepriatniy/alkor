@@ -1,0 +1,29 @@
+
+
+@font-face {
+    font-family: 'Wadik';
+    src: url('../../public/fonts/Wadik.otf');
+  }
+  
+  @font-face {
+    font-family: 'anonymos';
+    src: url('../../public/fonts/AnonymousPro-Bold.ttf');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'anonymos';
+    src: url('../../public/fonts/AnonymousPro-Regular.ttf');
+    font-weight: 400;
+  } 
+  
+  $main-bg: #151515;
+  $main: #ff8c42;
+  $secondary: #e8e8e8;
+  $secondary-2: #cecece;
+  $third-bg: #1d1d1d;
+  $grey: #a6a6a6;
+  $dark-grey: #383838;
+  $white: #fff;
+  
+  $font-family: "Anonymous Pro", sans-serif;
+  $third-family: "Wadik", sans-serif;
