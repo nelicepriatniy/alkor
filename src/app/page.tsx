@@ -3,6 +3,7 @@ import s from './main.module.scss'
 import FrontBlock from '@/components/frontBlock/frontBlock';
 import Pluss from '@/components/pluss/pluss';
 import PortfolioBlock from '@/components/portfolio/portfolio';
+import DealsBlock from '@/components/deals/deals'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FrontBlock />
       <Pluss />
       <PortfolioBlock />
+      <DealsBlock />
     </main>
     </>
   );

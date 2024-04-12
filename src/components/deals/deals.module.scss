@@ -1,0 +1,35 @@
+@import '../../app/variables.scss';
+
+.deals {
+    padding: 100rem 0 200rem 0;
+}
+.heading {
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 20px;
+    color: $main-bg;
+    margin-bottom: 78rem;
+}
+.wraper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 180rem;
+    &::after {
+        content: '';
+        display: block;
+        height: calc(100% + 150rem);
+        width: 1rem;
+        background: $black;
+        position: absolute;
+        right: -90rem;
+        top: -80rem;
+    }
+}
+.right {
+}
