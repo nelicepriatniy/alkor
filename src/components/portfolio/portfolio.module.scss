@@ -1,0 +1,83 @@
+@import '../../app/variables.scss';
+
+.portfolio {
+    padding: 100rem 0 287rem 0;
+    position: relative;
+    // &::after {
+    //     content: '';
+    //     display: block;
+    //     position: absolute;
+    //     top: 164rem;
+    //     left: 0;
+    //     border: 1rem solid red;
+    //     height: calc(100% - 164rem);
+    //     width: 813rem;
+    //     background: white;
+    //     z-index: 1;
+    // }
+    // &::before {
+    //     content: '';
+    //     display: block;
+    //     position: absolute;
+    //     top: 164rem;
+    //     right: 0;
+    //     border: 1rem solid red;
+    //     height: calc(100% - 164rem);
+    //     width: 772rem;
+    //     background: white;
+    //     z-index: 2;
+    // }
+}
+.container {
+    position: relative;
+    z-index: 2;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65rem;
+}
+.heading {
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 20rem;
+    color: #000;
+}
+.arrows {
+    display: flex;
+    column-gap: 30rem;
+}
+.arrowPrev, .arrowNext {
+    width: 30rem;
+    height: 30rem;
+    background: $main-bg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrowSvg {
+    width: 9rem;
+    height: 14rem;
+}
+.arrowNext {
+    & .arrowSvg {
+        transform: rotate(180deg);
+    }
+}
+.slider {
+}
+.slide {
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    width: 1047rem;
+    height: 747rem;
+    bottom: 0;
+    left: 140rem ;
+    z-index: 1;
+}
