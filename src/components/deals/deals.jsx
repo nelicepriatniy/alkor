@@ -39,7 +39,6 @@ function DealsBlock() {
         setActiveIndex(text)
     }
     const changeIndexCall = (text) => {
-        console.log(text);
         changeIndex(text);
     }
     return (

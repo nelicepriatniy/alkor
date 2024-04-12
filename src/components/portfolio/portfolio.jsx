@@ -38,14 +38,10 @@ function PortfolioBlock() {
     const [swiper, setSwiper] = useState();
     const [isMove, setisMove] = useState(false);
     const startAnimation = ()=>{
-        console.log('animStart');
         setisMove(true)
-        console.log(isMove)
     }
     const endAnimation = ()=>{
-        console.log('animEnd');
         setisMove(false)
-        console.log(isMove)
     }
     return (
         <section className={s.portfolio}>

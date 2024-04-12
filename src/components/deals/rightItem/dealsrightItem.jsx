@@ -4,7 +4,6 @@ function DealRightItem(props) {
     let classes = [s.item].join(' ');
     if(props.info.id == props.activeIndes) {
         classes = [s.item, s.active].join(' ');
-        console.log(classes)
     }
     return ( 
         <div className={classes}>
