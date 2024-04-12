@@ -2,6 +2,8 @@
 
 .deals {
     padding: 100rem 0 200rem 0;
+    position: relative;
+    overflow: hidden;
 }
 .heading {
     font-family: $third-family;
@@ -32,4 +34,13 @@
     }
 }
 .right {
+}
+
+.svg {
+    width: 659rem;
+    height: 669rem;
+    top: 111rem;
+    right: 0;
+    position: absolute;
+    z-index: 1;    
 }
